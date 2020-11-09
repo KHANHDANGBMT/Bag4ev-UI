@@ -1,0 +1,15 @@
+body {
+  overflow-y: scroll;
+}
+.title-form-login {
+  text-align: left;
+  padding-left: 30px;
+}
+
+input[type="text"] {
+  text-align: left;
+}
+
+input[type="password"] {
+  text-align: left;
+}
