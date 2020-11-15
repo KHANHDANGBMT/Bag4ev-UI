@@ -1,0 +1,15 @@
+.related-product {
+  display: flex;
+  flex-direction: row;
+}
+
+.related-product .single-product {
+      margin-right: 20px;
+
+}
+.product-hover a.add-to-cart-link {
+  top: -40%;
+}
+.product-hover a.view-details-link {
+  bottom: -40%;
+}
