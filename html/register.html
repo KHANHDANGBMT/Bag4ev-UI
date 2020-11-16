@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/login.css" />
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="../css/register.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link
@@ -26,10 +27,19 @@
         <form>
           <input
             type="text"
+            id="password"
+            class="fadeIn third"
+            name="login"
+            placeholder="Full name"
+            autocomplete="off"
+          />
+          <input
+            type="text"
             id="login"
             class="fadeIn second"
             name="login"
             placeholder="Username"
+            autocomplete="off"
           />
           <input
             type="password"
@@ -37,12 +47,26 @@
             class="fadeIn third"
             name="login"
             placeholder="Password"
+            autocomplete="off"
           />
-          <input type="submit" class="fadeIn fourth" value="Log In" />
+          <input
+            type="password"
+            id="password"
+            class="fadeIn third"
+            name="login"
+            placeholder="Confirm Password"
+            autocomplete="off"
+          />
+          <input
+            type="text"
+            id="password"
+            class="fadeIn third"
+            name="login"
+            placeholder="Phone Number"
+            autocomplete="off"
+          />
+          <input type="submit" class="fadeIn fourth" value="Register" />
         </form>
-        <div id="formFooter">
-          <a class="underlineHover" href="./register.html">Register</a>
-        </div>
       </div>
     </div>
   </body>
